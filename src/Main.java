@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-
+    // Первое задание
         byte a = 8;
         short b = 16;
         int c = 32;
@@ -29,11 +29,11 @@ public class Main {
         task5("Фанзиль");
         task6(1200);
     }
-
+    // Второе задание
     public static double task(double a, double b, double c, double d) {
         return a * (b + (c / d));
     }
-
+    //Третье задание
     public static boolean task2(int s, int a) {
         if (10 <= s + a && s + a <= 20) {
             return true;
@@ -41,7 +41,7 @@ public class Main {
             return false;
         }
     }
-
+    //Четвертое задание
     public static void task3(int a) {
         if (a >= 0) {
             System.out.println("Число положительное!");
@@ -49,7 +49,7 @@ public class Main {
             System.out.println("Число отрицательное!");
         }
     }
-
+    //Пятое задание
     public static boolean task4(int a) {
         if (a >= 0) {
             return false;
@@ -57,11 +57,11 @@ public class Main {
             return true;
         }
     }
-
+    // Шестое задание
     public static void task5(String name) {
         System.out.println("Привет, " + name);
     }
-
+    // Седьмое задание
     public static void task6(int a) {
         if (a % 4 == 0 && a % 100 != 0 || a % 400 == 0) {
             System.out.println("Високосный год!");
